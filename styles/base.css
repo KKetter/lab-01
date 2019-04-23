@@ -1,12 +1,13 @@
+* {
+  box-sizing:border-box;
+}
 
 body {
   background-color: #ffffff;
 }
 
 header, aside, section article, div, footer {
-  box-sizing: border-box;
   outline: 0.5px solid #000000;
   text-align: center;
-  background-color: #d8d8d8;
   border-collapse: collapse;
 }
