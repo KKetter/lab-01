@@ -15,12 +15,14 @@ header {
   height: 75px;
   line-height: 75px;
   border: 1px solid black;
+  background-color: rgb(65, 150, 115);
 }
 
 aside {
   height: 150px;
   line-height: 150px;
   border: 1px solid black;
+  background-color: rgb(50, 175, 67);
 }
 
 section article {
@@ -43,4 +45,30 @@ footer {
   height: 80px;
   line-height: 80px;
   border: 1px solid black;
+  background-color: rgb(200, 188, 25);
+}
+
+/* Refactor for Color requirement */
+article:first-of-type {
+  background-color: rgb(10, 20, 200);
+}
+
+article:last-of-type {
+  background-color: rgb(30, 40, 242);
+}
+
+main div:nth-child(1) {
+  background-color: rgb(12, 22, 201);
+}
+
+main div:nth-child(2) {
+  background-color: rgb(109, 65, 150);
+}
+
+main div:nth-child(3) {
+  background-color: rgb(134, 122, 103);
+}
+
+main div:nth-child(4) {
+  background-color: rgb(65, 101, 125);
 }
