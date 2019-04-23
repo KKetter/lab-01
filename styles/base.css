@@ -1,0 +1,12 @@
+
+body {
+  background-color: #FFFF;
+}
+
+header, aside, section article, div, footer {
+  box-sizing: border-box;
+  outline: 0.5px solid #000000;
+  text-align: center;
+  background-color: none;
+  border-collapse: collapse;
+}
