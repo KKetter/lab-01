@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/mobile.css">
+  <link rel="stylesheet" href="styles/tablet.css">
   <link rel="stylesheet" href="styles/desktop.css">
 
 </head>
@@ -14,20 +15,25 @@
 <body>
   <header>a</header>
   <div>
-    <aside>b</aside>
     <main>
-      <section>
-        <article>c</article>
-        <article>d</article>
+      <section id="bcd">
+        <aside>b</aside>
+        <article class="c">c</article>
+        <article class="d">d</article>
       </section>
-      <div>
-        <div>e</div>
-        <div>f</div>
-        <div>g</div>
-        <div>h</div>
+      <div id="efgh">
+        <section id="ef">
+          <div class="e">e</div>
+          <div>f</div>
+        </section>
+        <section id="gh">
+          <div>g</div>
+          <div>h</div>
+        </section>
       </div>
-      <footer>i</footer>
+      <footer id="i">i</footer>
     </main>
   </div>
 </body>
+
 </html>

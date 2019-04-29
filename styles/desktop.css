@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
     
     header, aside, section article, div, footer {
         background-color: #e4e4e4;
@@ -14,17 +14,14 @@
       line-height: 600px;
       width: 20.83%;
       max-width: 200px;
-      float: left;
-      border: 1px solid black;
       background-color: rgb(225, 175, 202);
     }
     
     main {
       width: 79.17%;
-      max-width: 760px;
-      float: left;
-      height: 600px;
-      line-height: 600px;
+      max-width: 60em;
+      height: 37.5em;
+      line-height: 37.5em;
     }
     
     header {
@@ -35,23 +32,21 @@
     }
   
     section article {
-      float: left;
       height: 200px;
       line-height: 200px;
       width: 50%;
-      border: 1px solid black;
     }
     
     div div div {
       height: 250px;
       line-height: 250px;
-      width: 25%;
-      border: 1px solid black;
+      width: 33%;
     }
     
     footer {
       height: 150px;
       line-height: 150px;
+      width:100%;
       border: 1px solid black;
       background-color: rgb(218, 225, 200);
     }
@@ -78,5 +73,35 @@
       
       main div:nth-child(4) {
         background-color: rgb(125, 177, 225);
+      }
+
+      #bcd {
+        width: 60em;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .c {
+        width: 39.58%;
+      }
+
+      .d {
+        width: 39.58%
+      }
+
+      #efgh{
+        display: flex;
+        direction: row;
+      }
+
+      #ef div {
+        width: 50%;
+      }
+
+      #gh div {
+        width: 50%;
+      }
+
+      #i {
       }
   }
